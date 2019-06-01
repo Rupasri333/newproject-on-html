@@ -1,0 +1,46 @@
+HTML stands for Hyper Text Markup Language. It is used to design web pages using markup language.
+HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages.
+Markup language is used to define the text document within tag which defines the structure of web pages.
+This language is used to annotate (make notes for the computer) text so that a machine can understand it and manipulate text accordingly.
+Most of markup (e.g. HTML) languages are human readable.
+Language uses tags to define what manipulation has to be done on the text.
+HTML is a markup language which is used by the browser to manipulate text, images and other content to display it in required format. 
+HTML was created by Tim Berners-Lee in 1991. 
+The first ever version of HTML was HTML 1.0 but the first standard version was HTML 2.0 which was published in 1999.
+<DOCTYPE! html>: This tag is used to tells the HTML version. This currently tells that the version is HTML 5.
+
+<html>: This is called HTML root element and used to wrap all the code.
+<head>: Head tag contains metadata, title, page CSS etc. All the HTML elements that can be used inside the <head> element are
+<style>
+<title>
+<base>
+<noscript>
+<script>
+<meta>
+<title>
+<body>: Body tag is used to enclosed all the data which a web page has from texts to links.
+Example: HTML page can be created using any text editor (notepad). 
+Then save that file using .htm or .html extension and open that file in browser. 
+It will get the HTML page response.
+<!DOCTYPE html> 
+<html> 
+    <head> 
+    <title>demo web page</title> 
+    <style> 
+        h1 { 
+            color:#009900; 
+            font-size:46px; 
+        } 
+        p { 
+            font-size:17px; 
+            margin-top:-25px; 
+            margin-left:15px; 
+        } 
+    </style> 
+    </head> 
+      
+    <body> 
+        <h1>GeeksforGeek</h1> 
+        <p>A computer science portal for geeks</p> 
+    </body> 
+</html>                     
