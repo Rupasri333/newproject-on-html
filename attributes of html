@@ -1,0 +1,43 @@
+HTML | Attributes
+An attribute is used to provide extra or additional information about an element.
+
+All HTML elements can have attributes. Attributes provide additional information about an element.
+It takes two parameters : a name and a value.
+These define the properties of the element and is placed inside the opening tag of the element. 
+The name parameter takes the name of the property we would like to assign to the element and the value takes the properties value or extent of the property names that can be aligned over the element.
+Every name has some value that must be written within quotes.
+Syntax:
+
+<element attribute_name="attribute_value">
+Below are some of the most commonly used Attributes in HTML:
+src Attribute :If we want to insert an image into a webpage, then we need to use the <img> tag and the src attribute. We will need to specify the address of the image as the attribute’s value inside the double quote.
+<html> 
+<head> 
+    <title>src Attribute</title> 
+</head> 
+<body> 
+    <img src="https://www.geeksforgeeks.org/wp-content/uploads/Geek_logi_-low_res.png"> 
+</body> 
+</html> 
+alt Attribute : As the name goes this is an alternate tag that is used to show or display something if the primary attribute i.e., the <img> tag, fails to display the value assigned to it. 
+This can also be used to describe the image to a developer who is actually sitting at the coding end.
+<html> 
+<head> 
+    <title>alt Attribute</title> 
+</head> 
+<body> 
+    <!--If the image is not found or the img field  
+     is left blank the alt value gets displayed-->
+    <img src="https://www.geeksforgeeks.org/wp-content/uploads/Geek_logi_-low_res.png" alt="The Logo"><br> 
+    <img src="" alt="Since the src value is blank,the alt value is displayed"> 
+</body> 
+</html> 
+The width and height Attribute : This attribute is used to adjust the width and height of an image.
+<html> 
+<head> 
+    <title>Width and Height</title> 
+</head> 
+<body> 
+    <img src="https://www.geeksforgeeks.org/wp-content/uploads/Geek_logi_-low_res.png" width="300px" height="100px" > 
+</body> 
+</html> 
